@@ -4,7 +4,7 @@
   "description": "Generar listado de cervezas aleatorio",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test/index.js -w",
+    "test": "mocha test/index.js",
     "semantic-release": "semantic-release",
     "commit": "git-cz",
     "travis-deploy-once": "travis-deploy-once"
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "cerveza",
-    "cervecicas"
+    "cervecicas h"
   ],
   "author": "huesoluis <huesoluis@gmail.com>",
   "license": "MIT",
