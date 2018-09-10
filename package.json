@@ -1,14 +1,15 @@
 {
   "name": "cervecicas",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Generar listado de cervezas aleatorio",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huesoluis/cervecicas.git"
+    "url": "https://github.com/huesoluis/cervecicas.git"
   },
   "keywords": [
     "cerveza",
@@ -21,12 +22,15 @@
   },
   "homepage": "https://github.com/huesoluis/cervecicas#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^5.5.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.9.14"
   },
   "dependencies": {
     "unique-random-array": "^1.0.1"
